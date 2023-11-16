@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 2px
+  }
+  
+  body {
+    background-color: rgb(7, 10, 15);
+    padding: 10px;
+    font-family: sans-serif;
+    flex-basis: content;
+  }
+#header{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+   background-size: cover;
+   background-image: url(photos/mountain-highland-sky-clouds-0aef5b3efad8dc84a1940eed9d2ca141.png);
+
+}
+  .container {
+    padding: 10px;
+  }
+  .logo{
+    color: rgb(238, 255, 0);
+    font-size: 100px;
+    font-weight: bold;
+}
+.logo::first-letter{
+    color: rgb(30, 63, 210);
+    border: 2px rgb(96, 123, 244) solid;
+    border-right: transparent;
+    padding-left: 8px;
+    
+}
+.header-txt{
+  margin-top: 10%;
+  color: rgb(14, 137, 245);
+  
+}
+  span{
+    color: rgb(243, 247, 17);
+  }
+  h4{
+    font-size: 30px;
+  
+  }
+  img{
+    border-radius: 10px;
+   }
+  p{
+    color:rgb(212, 172, 43);
+  }
+ 
+  .header-txt p{
+    font-size: 60px;
+    color: rgb(14, 137, 245);
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  h3{
+    color: darkblue;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(247, 232, 22);
+    position: relative;
+    font-weight: 700;
+
+  }
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a::after{
+  content:"";
+  background-color: rgb(255, 251, 6);
+  width: 0;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+nav ul li a:hover::after{
+  width: 100%;
+}
+ 
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Adding padding BETWEEN each column */
+  .row,
+  .row .column {
+    padding: 8px;
+  }
+  
+  /* Creating four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /*  To Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    padding: 10px 10%;
+    border-radius: 25px;
+  }
+  
+ 
+html{
+  scroll-behavior: smooth;
+}
+#projects{
+  padding: 100px 0;
+}
+.row2{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col2 img{
+border-radius: 20px;
+margin-right: 10px;
+}
+
+.icons a{
+text-decoration: none;
+font-size: 40px;
+margin-right: 15px;
+display: inline-block;
+}
+.copyright{
+  text-align: center;
+}
