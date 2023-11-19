@@ -1,3 +1,1 @@
-My Asignment
-and
-My first portfolio code  
+This is my Asignment of a portfolio code

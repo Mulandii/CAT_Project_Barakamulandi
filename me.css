@@ -90,7 +90,12 @@ nav ul li a::after{
 nav ul li a:hover::after{
   width: 100%;
 }
- 
+/*projects*/
+#projects{
+  padding: 100px 0;
+  height: 100vh;
+  width: 100%;
+}
   .row {
     margin: 8px -16px;
   }
@@ -124,9 +129,7 @@ nav ul li a:hover::after{
 html{
   scroll-behavior: smooth;
 }
-#projects{
-  padding: 100px 0;
-}
+
 .row2{
   display: flex;
   flex-wrap: wrap;
@@ -135,7 +138,7 @@ html{
 border-radius: 20px;
 margin-right: 10px;
 }
-
+/* contacts*/
 .icons a{
 text-decoration: none;
 font-size: 40px;
